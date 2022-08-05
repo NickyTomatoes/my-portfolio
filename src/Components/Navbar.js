@@ -10,8 +10,20 @@ const Navbar = () => {
     setClick(!click);
   };
 
+  const [color, setColor] = useState(false);
+
+  const colorHandler = () => {
+    if (window.scrollY >= 100) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", colorHandler);
+
   return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
         <h1>
           Comito<span>.</span>
