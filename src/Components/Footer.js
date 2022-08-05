@@ -31,14 +31,21 @@ const Footer = () => {
             development
           </p>
           <div className="social">
-            <FaGithub
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <a href="https://github.com/NickyTomatoes" target="blank">
+              <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nicholas-comito-9a6963117"
+              target="blank"
+            >
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>
