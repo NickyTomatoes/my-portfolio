@@ -2,10 +2,10 @@
 
 :root {
   /* Orange */
-  --main-color: rgb(229, 112, 23);
+  /* --main-color: rgb(229, 112, 23); */
 
   /* Olive green */
-  /* --main-color: rgb(67, 107, 50); */
+  --main-color: rgb(67, 107, 50);
 }
 
 * {
