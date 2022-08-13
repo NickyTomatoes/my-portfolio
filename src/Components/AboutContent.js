@@ -2,7 +2,6 @@ import "./AboutContent.css";
 
 import React from "react";
 import { Link } from "react-router-dom";
-import reactsticker from "../Assests/ReactSticker.jpg";
 import deskgraphic from "../Assests/DeskGraphic.jpg";
 import laptop from "../Assests/Laptop.jpg";
 
