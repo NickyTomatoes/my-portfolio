@@ -4,14 +4,14 @@ const ProjectCardData = [
   {
     imgsrc: testimg,
     title: "Brothers in Lawn Landscaping",
-    text: "Placeholder",
+    text: "Website for a local Landscaping company showcasing services offered and recent work.",
     view: "https://brothers-in-lawn.netlify.app/",
     source: "https://github.com/NickyTomatoes/Brothers-in-Lawn",
   },
   {
     imgsrc: testimg,
     title: "Rockin With Rob Tennis",
-    text: "Placeholder",
+    text: "Website for a local tennis coach showcasing training and services available.",
     view: "https://rockinwithrob.netlify.app/",
     source: "https://github.com/NickyTomatoes/rcTennis",
   },

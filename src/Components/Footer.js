@@ -1,5 +1,6 @@
 import "./Footer.css";
-import { FaHome, FaMailBulk, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FcHome, FcFeedback } from "react-icons/fc";
 
 import React from "react";
 
@@ -9,13 +10,13 @@ const Footer = () => {
       <div className="footer-container">
         <div className="left">
           <div className="location">
-            <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+            <FcHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
               <p>Philadelphia, PA</p>
             </div>
           </div>
           <div className="email">
-            <FaMailBulk
+            <FcFeedback
               size={20}
               style={{ color: "#fff", marginRight: "2rem" }}
             />
@@ -25,10 +26,12 @@ const Footer = () => {
           </div>
         </div>
         <div className="right">
-          <h4>Portfolio by React</h4>
+          <h4>
+            Portfolio by <span>React</span>
+          </h4>
           <p>
             Crafted to showcase my projects and passion about front end
-            development
+            development<span>.</span>
           </p>
           <div className="social">
             <a href="https://github.com/NickyTomatoes" target="blank">
