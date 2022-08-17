@@ -55,10 +55,4 @@
   .hero .content h1 {
     font-size: 2rem;
   }
-
-  .hero {
-    min-height: 100vh;
-    /* Mobile viewport height safari fix */
-    min-height: -webkit-fill-available;
-  }
 }
