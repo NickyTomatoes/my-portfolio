@@ -59,4 +59,8 @@
   .hero {
     height: 90vh;
   }
+
+  .mask::after {
+    height: 90vh;
+  }
 }
