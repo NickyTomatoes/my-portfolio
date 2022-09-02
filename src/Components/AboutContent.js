@@ -11,12 +11,13 @@ const AboutContent = () => {
       <div className="left">
         <h1>Nicholas Comito</h1>
         <p>
-          Passionate self-taught front end developer with a thirst for knowledge
-          and a drive to grow<span>.</span>
+          Passionate, self-taught, front end developer with a thirst for
+          knowledge and a drive to grow<span>!</span>
         </p>
         <p>
-          Born and raised in Philadelphia PA, a career change led me to take a
-          quick interest in programming, and I have since hit the ground running
+          Born and raised in Philadelphia, PA, a career change promted me to
+          take an immediate interest in programming, and I have since hit the
+          ground running
           <span>.</span>
         </p>
         <Link to="/contact">

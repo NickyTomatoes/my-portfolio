@@ -10,7 +10,10 @@ const Projects = () => {
   return (
     <div>
       <Navbar />
-      <HeroImgTwo heading="Projects" text="Here is some of my recent work" />
+      <HeroImgTwo
+        heading="Projects"
+        text="Here is a selection of my most recent work."
+      />
       <Work />
       <Skills />
       <Footer />
