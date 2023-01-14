@@ -1,6 +1,7 @@
 import "./Skills.css";
 
 import React from "react";
+import { SiTableau } from "react-icons/si";
 import {
   DiHtml5,
   DiCss3,
@@ -18,6 +19,14 @@ const Skills = () => {
         Skills<span>!</span>
       </h1>
       <div className="icons">
+        <div className="icon">
+          <DiMysql size={70} style={{ color: "#fff" }} />
+          <p>MySQL</p>
+        </div>
+        <div className="icon">
+          <SiTableau size={70} style={{ color: "#fff" }} />
+          <p>Tableau</p>
+        </div>
         <div className="icon">
           <DiHtml5 size={70} style={{ color: "#fff" }} />
           <p>HTML</p>
@@ -41,10 +50,6 @@ const Skills = () => {
         <div className="icon">
           <DiGithubBadge size={70} style={{ color: "#fff" }} />
           <p>GITHUB</p>
-        </div>
-        <div className="icon">
-          <DiMysql size={70} style={{ color: "#fff" }} />
-          <p>MySQL</p>
         </div>
       </div>
     </div>

@@ -33,6 +33,7 @@ const Footer = () => {
             Crafted to showcase my projects and passion about front end
             development<span>.</span>
           </p>
+          <br></br>
           <p>
             Please check out my GitHub, LinkedIn, and HackerRank Profiles!
             <span>.</span>
