@@ -8,6 +8,7 @@ import {
   DiJsBadge,
   DiReact,
   DiGithubBadge,
+  DiMysql,
 } from "react-icons/di";
 
 const Skills = () => {
@@ -40,6 +41,10 @@ const Skills = () => {
         <div className="icon">
           <DiGithubBadge size={70} style={{ color: "#fff" }} />
           <p>GITHUB</p>
+        </div>
+        <div className="icon">
+          <DiMysql size={70} style={{ color: "#fff" }} />
+          <p>MySQL</p>
         </div>
       </div>
     </div>
